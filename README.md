@@ -139,6 +139,5 @@ Se muestran las matrices y las mejores soluciones encontradas en formato de imag
 - Valores píxel = [0, 255] → Rango de valores de cada píxel
 
 ### 📈 Ejemplo de resultado (salida de consola)
-```
-Generacion actual: 100
-Diferencia promedio menor encontrada: 15.4
+<img width="452" height="530" alt="image" src="https://github.com/user-attachments/assets/620fce7c-8fc8-4c4a-ba94-c350cddba3c0" />
+
