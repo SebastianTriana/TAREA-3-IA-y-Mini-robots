@@ -100,12 +100,10 @@ Este ejercicio simula un sistema de gobierno con representación parlamentaria, 
 - `Gen = 1000` → Número de generaciones
 
 ### 📊 Ejemplo de salida
-
+```text
 Generacion actual: 1000
 === Mejor cromosoma total: de la generacion 947 ===
 Poder esperado = [0.28, 0.16, 0.22, 0.18, 0.16]
 Poder asignado = [0.27, 0.15, 0.23, 0.17, 0.18]
 Precision = 97.2%
 
-yaml
-Copiar código
