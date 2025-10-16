@@ -8,7 +8,7 @@ Este repositorio contiene la solución de la **Guía #3** del curso de Inteligen
 
 ---
 
-## 📌 Punto 1: Maximización con Algoritmos Genéticos
+## Punto 1: Maximización con Algoritmos Genéticos
 
 Se implementa un **algoritmo genético (AG)** para encontrar el valor de \( x \in [0, 1] \) que maximiza la siguiente función:
 
@@ -37,13 +37,13 @@ Copiar código
 6. **Mejor cromosoma**:  
    Se guarda y muestra el mejor cromosoma encontrado en todas las generaciones.
 
-### 🧪 Parámetros utilizados
+### Parámetros utilizados
 
 - `L = 10` → Longitud del cromosoma (número de bits)
 - `N = 100` → Tamaño de la población
 - `Gen = 1000` → Número de generaciones
 
-### 📈 Ejemplo de resultado (salida de consola)
+### Ejemplo de resultado (salida de consola)
 
 ```text
 Generacion actual: 1000
@@ -55,11 +55,11 @@ f(x*) = 9.85
 
 ---
 
-## 📌 Punto 2: Democracia Verdadera con Asignación de Poder
+## Punto 2: Democracia Verdadera con Asignación de Poder
 
 Este ejercicio simula un sistema de gobierno con representación parlamentaria, donde se deben distribuir entidades del Estado entre partidos políticos, **respetando su proporción de curules**. El objetivo es lograr una asignación justa del poder, utilizando un algoritmo genético.
 
-### 🏛️ Contexto
+### Contexto
 
 - Hay **5 partidos políticos** y **50 curules** en el congreso.
 - Hay **50 entidades** (ministerios, agencias, etc.) que se deben repartir.
@@ -91,7 +91,7 @@ Este ejercicio simula un sistema de gobierno con representación parlamentaria, 
      - Cuánto poder recibió cada uno comparado con sus curules.
      - Precisión total de la asignación.
 
-### 🧪 Parámetros utilizados
+### Parámetros utilizados
 
 - `Num_curules = 50`  
 - `Num_partidos = 5`  
@@ -99,7 +99,7 @@ Este ejercicio simula un sistema de gobierno con representación parlamentaria, 
 - `N = 100` → Tamaño de la población  
 - `Gen = 1000` → Número de generaciones
 
-### 📊 Ejemplo de salida
+### Ejemplo de salida
 ```text
 Generacion actual: 1000
 === Mejor cromosoma total: de la generacion 947 ===
@@ -109,11 +109,11 @@ Precision = 97.2%
 ```
 ---
 
-## 📌 Punto 4: Aproximación de Imagen con Algoritmo Evolutivo
+## Punto 4: Aproximación de Imagen con Algoritmo Evolutivo
 
 Se implementa un algoritmo evolutivo para aproximar una imagen objetivo mediante la evolución de una población de matrices aleatorias.
 
-### ⚙️ ¿Cómo funciona?
+### ¿Cómo funciona?
 
 1. **Generación inicial:**
 Se crea una población de 50 matrices de tamaño 120x180 con valores enteros aleatorios entre 0 y 255.
@@ -130,7 +130,7 @@ Se seleccionan y modifican matrices para minimizar la diferencia con la imagen o
 5. **Visualización:**
 Se muestran las matrices y las mejores soluciones encontradas en formato de imagen para facilitar la evaluación visual.
 
-### 🧪 Parámetros utilizados
+### Parámetros utilizados
 
 - Población = 50 → Número de matrices generadas por generación
 
