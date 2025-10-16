@@ -107,37 +107,38 @@ Poder esperado = [0.28, 0.16, 0.22, 0.18, 0.16]
 Poder asignado = [0.27, 0.15, 0.23, 0.17, 0.18]
 Precision = 97.2%
 ```
+---
 
-📌 Punto 4: Aproximación de Imagen con Algoritmo Evolutivo
+## 📌 Punto 4: Aproximación de Imagen con Algoritmo Evolutivo
 
 Se implementa un algoritmo evolutivo para aproximar una imagen objetivo mediante la evolución de una población de matrices aleatorias.
 
-⚙️ ¿Cómo funciona?
+### ⚙️ ¿Cómo funciona?
 
-Generación inicial:
+1. **Generación inicial:**
 Se crea una población de 50 matrices de tamaño 120x180 con valores enteros aleatorios entre 0 y 255.
 
-Representación:
+2. **Representación:**
 Cada matriz representa una imagen en escala de grises.
 
-Evaluación (fitness):
+3. **Evaluación (fitness):**
 La aptitud de cada individuo se calcula como la diferencia promedio de píxeles con la imagen objetivo (a menor diferencia, mejor aptitud).
 
-Evolución iterativa:
+4. **Evolución iterativa:**
 Se seleccionan y modifican matrices para minimizar la diferencia con la imagen original, buscando mejorar la aproximación generación tras generación.
 
-Visualización:
+5. **Visualización:**
 Se muestran las matrices y las mejores soluciones encontradas en formato de imagen para facilitar la evaluación visual.
 
-🧪 Parámetros utilizados
+### 🧪 Parámetros utilizados
 
-Población = 50 → Número de matrices generadas por generación
+- Población = 50 → Número de matrices generadas por generación
 
-Dimensiones = 120 x 180 → Tamaño de cada matriz (imagen)
+- Dimensiones = 120 x 180 → Tamaño de cada matriz (imagen)
 
-Valores píxel = [0, 255] → Rango de valores de cada píxel
+- Valores píxel = [0, 255] → Rango de valores de cada píxel
 
-📈 Ejemplo de resultado (salida de consola)
+### 📈 Ejemplo de resultado (salida de consola)
 ```
 Generacion actual: 100
 Diferencia promedio menor encontrada: 15.4
